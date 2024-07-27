@@ -1,0 +1,47 @@
+.parent{
+   width: 400px;
+   height: 400px;
+   background-color: magenta;
+   position: relative;
+   left: 10px;
+}
+.child1{
+   width: 70px;
+   height: 70px;
+   background-color: aqua;
+   position: static;
+
+}
+.child2{
+   width: 70px;
+   height: 70px;
+   background-color: aqua;
+   position: relative;
+   left: 100px;
+}
+.child3{
+   width: 70px;
+   height: 70px;
+   background-color: aqua;
+   position: fixed;
+   bottom: 0;
+   right: 0;
+}
+.child4{
+   width: 70px;
+   height: 70px;
+   background-color: aqua;
+   position: absolute;
+   left: 500px;
+}
+.child5{
+   width: 1500px;
+   height: 20px;
+   background-color: aqua;
+   position: sticky;
+   top: 0;
+}
+.HEARDER{
+   color: black;
+   left: 100px;
+}
